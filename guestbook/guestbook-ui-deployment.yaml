@@ -14,7 +14,7 @@ spec:
         app: test-develop
     spec:
       containers:
-      - image: cmarcoux/test-argo:develop
+      - image: cmarcoux/test-argo:latest
         name: test-develop
         ports:
         - containerPort: 80
