@@ -14,7 +14,7 @@ spec:
         app: test-develop
     spec:
       containers:
-      - image: cmarcoux/test-argo:latest
+      - image: cmarcoux/test-argo:develop
         imagePullPolicy: Always
         name: test-develop
         ports:
