@@ -15,6 +15,7 @@ spec:
     spec:
       containers:
       - image: cmarcoux/test-argo:latest
+        imagePullPolicy: Always
         name: test-develop
         ports:
         - containerPort: 80
